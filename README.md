@@ -4,5 +4,5 @@
 
 ```shell
 npm install
-webpack --progress
+npm run build
 ```
