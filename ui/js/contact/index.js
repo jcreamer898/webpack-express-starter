@@ -1,4 +1,5 @@
 require("../../sass/main.scss");
+require("./contact.scss");
 
 require([
   "../components/navigation"
