@@ -1,4 +1,4 @@
-# webpack-multi-site
+# webpack-express-starter
 
 ### Getting Started
 
