@@ -10,4 +10,12 @@ router.get('/about', function(req, res, next) {
   res.render('about', { title: 'Express' });
 });
 
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title: 'Express' });
+});
+router.post('/contact', function(req, res, next) {
+  res.render('contact', { message: req.body.comment });
+});
+
+
 module.exports = router;

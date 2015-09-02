@@ -1,0 +1,18 @@
+{{#if message}}
+<div class="alert alert-success" role="alert">You said: {{message}}</div>
+{{/if}}
+
+<form method="post">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+      <textarea rows="5" name="comment" class="form-control" placeholder="Comment..."></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+{{#extend "scripts"}}
+  <script src="contact.js"></script>
+{{/extend}}

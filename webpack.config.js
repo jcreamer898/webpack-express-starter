@@ -21,7 +21,8 @@ module.exports = {
   entry: {
     common: ["jquery", "bootstrap"],
     home: "./js/home/index.js",
-    about: "./js/about/index.js"
+    about: "./js/about/index.js",
+    contact: "./js/contact/index.js"
   },
   output: {
     path: path.join(__dirname, "public"),
