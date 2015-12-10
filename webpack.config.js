@@ -29,7 +29,7 @@ module.exports = {
     filename: "[name].js",
     chunkFilename: "[name]_[chunkhash].js"
   },
-  resove: {
+  resolve: {
     root: path.join(__dirname, "ui")
   },
   module: {
